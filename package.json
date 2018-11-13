@@ -1,5 +1,5 @@
 {
-  "name": "react-date-range",
+  "name": "tmt-date-range2",
   "version": "1.0.0-beta",
   "description": "A React component for choosing dates and date ranges.",
   "main": "dist/index.js",
@@ -8,18 +8,13 @@
     "clear": "rm -rf dist/* & rm -rf demo/dist/*",
     "build": "NODE_ENV=production & yarn build-library & yarn build-demo",
     "build-demo": "webpack -p",
-    "build-library": "babel ./src --out-dir ./dist --ignore test.js & postcss 'src/styles.scss' -d dist --ext css & postcss 'src/theme/*.scss' -d 'dist/theme' --ext css",
+    "build-library":
+      "babel ./src --out-dir ./dist --ignore test.js & postcss 'src/styles.scss' -d dist --ext css & postcss 'src/theme/*.scss' -d 'dist/theme' --ext css",
     "lint": "eslint 'src/**/*.js'",
     "test": "jest",
     "preversion": "yarn clear & yarn build"
   },
-  "keywords": [
-    "react",
-    "date",
-    "range",
-    "datepicker",
-    "rangepicker"
-  ],
+  "keywords": ["react", "date", "range", "datepicker", "rangepicker"],
   "contributors": [
     "Burak Can <neoberg@gmail.com> (https://github.com/burakcan)",
     "Mehmet Kamil Morcay <mehmetmorcay@gmail.com> (https://github.com/mkg0)"
@@ -27,10 +22,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/Adphorus/react-date-range"
+    "url": "http://github.com/IgorFeshchenko/react-date-range"
   },
   "bugs": {
-    "url": "http://github.com/Adphorus/react-date-range/issues"
+    "url": "http://github.com/IgorFeshchenko/react-date-range/issues"
   },
   "dependencies": {
     "classnames": "^2.2.1",
