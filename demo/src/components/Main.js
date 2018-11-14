@@ -150,7 +150,7 @@ export default class Main extends Component {
       <main className={'Main'}>
         <h1 className={'Title'}>React-date-range</h1>
 
-        <Section title="DateRangePicker - 2 month">
+        <Section title="DateRangePicker - 222222 month">
           <div>
             <input
               type="text"
