@@ -349,7 +349,7 @@ export default class Main extends Component {
             minDate={addDays(new Date(), -3)}
           />
         </Section>
- <Section title="DateRangePicker - 2322222222 month">
+ <Section title="DateRangePicker2 - 2322222222 month">
           <div>
             <input
               type="text"
