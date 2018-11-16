@@ -1,6 +1,6 @@
 {
-  "name": "tmt-date-range2",
-  "version": "1.0.0-beta",
+  "name": "tmt-date-range",
+  "version": "1.0.1-beta",
   "description": "A React component for choosing dates and date ranges.",
   "main": "dist/index.js",
   "scripts": {
