@@ -167,7 +167,7 @@ class DayCell extends Component {
   render() {
     const { styles } = this.props;
     return (
-      <button
+      <div
         type="button"
         onMouseEnter={this.handleMouseEvent}
         onMouseLeave={this.handleMouseEvent}
@@ -186,7 +186,7 @@ class DayCell extends Component {
         <span className={styles.dayNumber}>
           <span>{format(this.props.day, 'D')}</span>
         </span>
-      </button>
+      </div>
     );
   }
 }
